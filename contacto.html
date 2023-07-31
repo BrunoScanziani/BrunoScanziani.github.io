@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 id="cont">Contactar</h2>
+    <form action="get">
+        <label for="contacto" id="destinatario"> Para:
+        <input type="text" name="contacto" > </label>
+        <br>
+        <label for="tematica" id="tema"> Tematica: </label>
+        <select name="teamtica" id="tematica">
+            <option value="ElijeUnTema"> --Elije un tema-- </option>
+            <option value="Consulta"> Consulta</option>
+            <option value="Propuesta"> Propuesta</option>
+            <option value="Reporte"> Reporte</option>
+            <option value="Otro"> Otro</option>
+        </select>
+        <br>
+        <label for="Asunto"> Asunto:
+            <input type="text" name="Asunto" id="Asunto">
+        </label>
+        <br>
+        <label for="Cuerpo"> Cuerpo: 
+            <textarea name="Cuerpo" id="Cuerpo" cols="20" rows="10"></textarea>
+        </label>
+        <br>
+        <button>Enviar</button>
+    </form>
+    </center>
+    
+</body>
+</html>

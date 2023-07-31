@@ -1,0 +1,65 @@
+body {
+    background-color:black;
+    margin: 10%;
+}
+
+.titulo {
+    color: rgb(169, 169, 169);
+    font-size: 300%;
+}
+
+.texto {
+    color: rgb(161, 161, 161);
+    font-style:inherit;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    height: 120%;
+    width: 23%;
+    font-size: 130%;
+}
+
+.boton {
+    border-color: rgb(0, 0, 9);
+    height: 120%;
+    width: 23%;
+    font-size: 110%;
+    font-style: oblique;
+    border-radius: 7px;  
+}
+
+#formacion {
+    background-image: url(download.jpg);
+    width: 230px;
+    height: 150px;
+}
+
+#proyectos {
+    background-image: url(proyecto.jpg);
+    width: 230px;
+    height: 150px;
+}
+
+#contacto {
+    width: 230px;
+    height: 150px;
+    background-image: url(contacto.png);
+}
+
+#foda {
+    width: 230px;
+    height: 150px;
+    background-image: url(foda2.jpg);
+}
+
+#perfil {
+    border-radius: 40px;
+}
+
+label, #cont, #form, #lista, #proy, #lista2 {
+    color: white;
+    font-size: 200%;
+
+}
